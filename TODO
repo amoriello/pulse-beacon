@@ -1,0 +1,16 @@
+========= S C R I P T  ========================================================
+* Improve general "readability"
+* Make serial communication
+
+
+========= A R D U I N O  ======================================================
+* Make class Led and class RgbLed uncopyable
+* Find a way to separate declaration from definition
+* Avoid global vars
+* Avoid initialization of rgb_led outside of loop()
+* Try introduce RFM22 Library
+
+
+========= A V R ===============================================================
+* Make Serial class (using interrupt)
+* Make build object generation's results in objs/ folder
